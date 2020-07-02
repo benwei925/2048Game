@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="./css/2048.css">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <script src="./js/2048.js"></script>
+    <script src="./js/support.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/game.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>新2048</h1>
+        <h2 class="subtitle">Play<strong>2048 Game</strong>Online</h2>
+        <div class="above-game">
+            <p>Join the numbers and get to the <strong>2048 tile!</strong></p>
+        </div>
+        <a id="newgamebutton" href="#">New Game</a>
+        <div class="Score-com">
+            <li class="Score_text">score </li>
+            <li id="score">0</li>
+        </div>
+        <div class="btn_exit">
+            <input type="button" value="exit" class="close" onclick="closeWin()">
+        </div>
+        
+    </header>
+    <div id="grid_container">
+        <!--  <div class="grid_cell"></div>  -->
+        <!--  <div class="number_cell"></div>  -->
+    </div>
+
+</body>
+</html>
